@@ -293,7 +293,40 @@ main{
 }
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
+    #nav-bar li a{
+        font-size: 10px;
+    }
+
+    #first-section{
+        font-size: 12px;;
+    }
+
+    #second-section{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0px;
+    }
+        button{
+            border-radius: 4px;
+            padding: 5px;
+        }
+            .space{
+                margin-right: 5px;
+            }
+
+    #third-section{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #first{
+        font-size: 13px;
+        line-height: 28px;
+    }
+            #invoice-image{
+                height: 100%;
+            }
     .inner-div, .special{
         font-size: 12px;
         padding: 5px 0;

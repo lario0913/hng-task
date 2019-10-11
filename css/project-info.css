@@ -335,4 +335,12 @@ main{
     #second{
         font-size: 12px;
     }
+    #nav-bar ul{
+        justify-content: space-around;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    #nav-bar ul li a.hide{
+        display: none;
+    }
 }
